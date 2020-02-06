@@ -4,7 +4,7 @@ import SearchBar from '../SearchBar';
 function Header() {
   return (
     <div className="Header">
-        <h1>Super Shop</h1>
+        <p>Super Shop</p>
         <SearchBar />
     </div>
   );

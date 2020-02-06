@@ -7,7 +7,6 @@ function SearchBar() {
   }
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(input)
   }
   return (
   <div className="SearchBar">
