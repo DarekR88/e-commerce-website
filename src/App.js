@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Front from "./pages/Front";
-import Products from './pages/Products';
+import ProductsList from './pages/ProductsList';
 import CustomerProfile from './pages/CustomerProfile';
 import NoMatch from './pages/NoMatch';
 
@@ -14,7 +14,7 @@ function App() {
             <Front />
           </Route>
           <Route exact path="/products">
-            <Products />
+            <ProductsList />
           </Route>
           <Route exact path="/profile">
             <CustomerProfile />

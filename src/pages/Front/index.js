@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../../components/Header';
+import Nav from '../../components/Nav';
 import Footer from '../../components/Footer';
 
 function Front() {
   return (
     <div className="Front">
-        <Header />
+        <Nav />
         <Footer />
     </div>
   );
